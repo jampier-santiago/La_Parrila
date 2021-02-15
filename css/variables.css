@@ -1,0 +1,17 @@
+/* Links para importar las fuentes del proyecto */
+@import url('https://fonts.googleapis.com/css2?family=Stalinist+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap'); 
+
+/* Variables a utilizar dentro del proyecto */
+:root {   
+    /* Fuentes */
+    --letra: 'Stalinist One', cursive;
+    --letra2:'Source Code Pro', monospace;
+    --letra3: 'Lexend Mega', sans-serif;
+
+    /* Colores */
+    --colorPrincipal: #FF0000;
+    --colorOscuro: #000;
+    --colorClaro: #fff;
+}
