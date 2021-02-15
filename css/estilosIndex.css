@@ -137,7 +137,22 @@
     background-size: cover;
 }
 
-/* MAIN */
+/* FOOTER */
+footer{
+    width: 100vw;
+    max-width: 100vw;
+    padding: 10px;
+    background: linear-gradient(45deg, var(--colorPrincipal), var(--colorOscuro));
+    box-sizing: border-box;
+}
+
+footer h3{
+    font-family: var(--letra);
+}
+
+footer h4{
+    font-family: var(--letra2);
+}
 
 
 /* Animaciones */
