@@ -94,7 +94,9 @@
     width: 50%;
     height: 380px;
     margin: 20px;
-    border: 5px solid white;
+    border: 2px solid var(--colorClaro);
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px var(--colorClaro);
     box-sizing: border-box;
     overflow: hidden;
 }
