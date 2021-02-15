@@ -2,10 +2,12 @@
 
 /* HEADER*/
 .header{
-    background-color: gray;
+    background-image: url('../sources/img/danny-gallegos-onTGVHxgRJA-unsplash.jpg');
+    background-size: cover;
+    background-position: top;
     width: 100vw;
     max-width: 100vw;
-    height: 60vh;
+    height: 65vh;
 }
 
 .header__menu{
@@ -64,4 +66,115 @@
     color: var(--colorClaro);
     text-decoration: none;
     box-sizing: border-box;
+}
+
+.header__presentacion{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.header__presentacion .imagen-principal{
+    width: 50%;
+    max-width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.header__presentacion .imagen-principal img{
+    max-width: 50%;
+    display: block;
+    margin: 5px auto;
+    object-fit: cover;
+}
+
+.header__presentacion .slider-imagenes{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    height: 380px;
+    margin: 20px;
+    border: 5px solid white;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.slider-imagenes .imagen{
+    background-color: green;
+    width: 100%;
+    height: 370px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    animation-name: slider;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+.slider-imagenes #imagen1{
+    background-image: url('https://i.pinimg.com/originals/82/45/ed/8245edab9553a55239aee4fd0c4bd11c.png');
+    background-size: cover;
+}
+
+.slider-imagenes #imagen2{
+    background-image: url('https://i.pinimg.com/originals/dc/6a/b8/dc6ab8de4506749d0842e39e850a6c27.png');
+    background-size: cover;
+}
+
+.slider-imagenes #imagen3{
+    background-image: url('https://i.pinimg.com/originals/a5/d2/7f/a5d27f2daf40a809b93a6ad5d76600e2.png');
+    background-size: cover;
+}
+
+.slider-imagenes #imagen4{
+    background-image: url('https://i.pinimg.com/originals/db/59/8a/db598a714227547e778dcd3d8cac1254.png');
+    background-size: cover;
+}
+
+.slider-imagenes #imagen5{
+    background-image: url('https://i.pinimg.com/originals/f5/3e/0c/f53e0c1f1fa46435593d521701a8d801.png');
+    background-size: cover;
+}
+
+
+/* Animaciones */
+@keyframes slider{
+    0%{
+        transform: translateX(0);
+    }
+
+    15%{
+        transform: translateX(0);
+    }
+
+    20%{
+        transform: translateX(-100%);
+    }
+
+    35%{
+        transform: translateX(-100%);
+    }
+
+    40%{
+        transform: translateX(-200%);
+    }
+
+    55%{
+        transform: translateX(-200%);
+    }
+
+    60%{
+        transform: translateX(-300%);
+    }
+
+    75%{
+        transform: translateX(-300%);
+    }
+
+    80%{
+        transform: translateX(-400%);
+    }
+
+    100%{
+        transform: translateX(-400%);
+    }
 }
