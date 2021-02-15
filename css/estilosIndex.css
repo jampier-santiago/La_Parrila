@@ -50,7 +50,7 @@
 }
 
 .header__menu ul li:hover{
-    background-color: rgba(0, 0, 0, .2);
+    background-color: rgba(255, 255, 255, 0.2);
     font-weight: bolder;
     font-style: italic;
 }
@@ -92,7 +92,7 @@
     display: flex;
     flex-direction: row;
     width: 50%;
-    height: 380px;
+    height: 370px;
     margin: 20px;
     border: 2px solid var(--colorClaro);
     border-radius: 25px;
@@ -136,6 +136,8 @@
     background-image: url('https://i.pinimg.com/originals/f5/3e/0c/f53e0c1f1fa46435593d521701a8d801.png');
     background-size: cover;
 }
+
+/* MAIN */
 
 
 /* Animaciones */
