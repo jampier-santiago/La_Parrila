@@ -92,11 +92,9 @@
     display: flex;
     flex-direction: row;
     width: 50%;
-    height: 370px;
+    height: 380px;
     margin: 20px;
-    border: 2px solid var(--colorClaro);
-    border-radius: 25px;
-    box-shadow: 5px 5px 10px var(--colorClaro);
+    border: 5px solid white;
     box-sizing: border-box;
     overflow: hidden;
 }
@@ -136,8 +134,6 @@
     background-image: url('https://i.pinimg.com/originals/f5/3e/0c/f53e0c1f1fa46435593d521701a8d801.png');
     background-size: cover;
 }
-
-/* MAIN */
 
 
 /* Animaciones */
