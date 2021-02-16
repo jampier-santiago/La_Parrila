@@ -5,7 +5,7 @@
     background-image: url('../sources/img/danny-gallegos-onTGVHxgRJA-unsplash.jpg');
     background-size: cover;
     background-position: top;
-    width: 100vw;
+    width: 100%;
     max-width: 100vw;
     height: 65vh;
 }
@@ -40,7 +40,7 @@
 }
 
 .header__menu ul li{
-    width: 25%;
+    width: 22%;
     height: 100%;
     margin: 0;
     text-align: center;
@@ -70,12 +70,16 @@
 
 .header__presentacion{
     width: 100%;
+    height: 90%;
     display: flex;
+    align-items: center;
     flex-direction: row;
+    box-sizing: border-box;
 }
 
 .header__presentacion .imagen-principal{
     width: 50%;
+    height: 100%;
     max-width: 50%;
     height: 100%;
     box-sizing: border-box;
@@ -135,20 +139,89 @@
     background-size: cover;
 }
 
+/* MAIN */
+.main{
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.main__titulo{
+    width: 100%;
+    height: 80px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, var(--colorPrincipal), var(--colorOscuro));
+    border-bottom: 2px solid var(--colorOscuro);
+    box-sizing: border-box;
+}
+
+.main__titulo h1{
+    font-family: var(--letra3);
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+.main__contenedor-productos{
+    width: 100%;
+    max-width: 1600px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-image: url('https://i.pinimg.com/originals/e3/69/f8/e369f855a966b0c9f5611d434588b0a7.jpg');
+    box-sizing: border-box;
+}
+
+.contenedor-productos{
+    width: 40%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid var(--colorOscuro);
+    border-radius: 25px;
+    box-shadow: 10px 10px 20px var(--colorOscuro);
+    background-color: rgba(255, 255, 255, .5);
+}
+
+.contenedor-productos .titulo-categoria{
+    text-align: center;
+    border-bottom: 5px solid var(--colorOscuro);
+}
+
+.contenedor-productos .titulo-categoria h2{
+    font-family: var(--letra2);
+}
+
+.contenedor-productos .productos{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.contenedor-productos .productos li{
+    margin-bottom: 10px;
+    font-family: var(--letra3);
+}
+
 /* FOOTER */
-footer{
-    width: 100vw;
+.footer{
+    width: 100%;
     max-width: 100vw;
     padding: 10px;
     background: linear-gradient(45deg, var(--colorPrincipal), var(--colorOscuro));
     box-sizing: border-box;
 }
 
-footer h3{
+.footer h3{
     font-family: var(--letra);
 }
 
-footer h4{
+.footer h4{
     font-family: var(--letra2);
 }
 
@@ -195,3 +268,4 @@ footer h4{
         transform: translateX(-400%);
     }
 }
+
