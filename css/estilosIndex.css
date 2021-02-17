@@ -72,6 +72,7 @@
 
 .contenedor-btn-menu{
     display: none;
+    min-width: 50px;
 }
 
 .header__menu .btn-menu{
@@ -351,7 +352,7 @@
     }
     .contenedor-btn-menu{
         display: block;
-        width: 50px !important;
+        width: 50px;
     }
 
     .header__presentacion{
@@ -400,7 +401,7 @@
     }
     .contenedor-btn-menu{
         display: block;
-        width: 50px !important;
+        width: 50px;
     }
 
     .header__presentacion{
@@ -420,6 +421,55 @@
     .header__presentacion .slider-imagenes{
         width: 80%;
         height: 40%;
+    }
+
+    .header__presentacion .slider-imagenes .imagen{
+        width: 100%;
+        height: 100%;
+    }
+
+    .menu-responsive{
+        height: auto;
+    }
+
+    .menu-responsive .menu-responsive__enlaces ul{
+        padding-left: 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .menu-responsive .menu-responsive__enlaces ul li{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .enlace-menu{
+        display: none;
+    }
+    .contenedor-btn-menu{
+        display: block;
+        width: 50px;
+    }
+
+    .header__presentacion{
+        flex-direction: column;
+    }
+
+    .header__presentacion .imagen-principal{
+        width: 100%;
+        height: 40%;
+        margin-top: 10px;
+    }
+
+    .header__presentacion .imagen-principal img{
+        min-width: 70%;
+    }
+
+    .header__presentacion .slider-imagenes{
+        width: 80%;
+        height: 50%;
     }
 
     .header__presentacion .slider-imagenes .imagen{
