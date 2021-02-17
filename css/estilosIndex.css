@@ -492,3 +492,33 @@
         width: 90%;
     }
 }
+
+@media screen and (max-width: 768px){
+    .enlace-menu{
+        display: none;
+    }
+    .contenedor-btn-menu{
+        display: block;
+        width: 50px;
+    }
+
+    .header__presentacion .imagen-principal{
+        width: 40%;
+        height: 40%;
+        margin-top: 10px;
+    }
+
+    .header__presentacion .imagen-principal img{
+        min-width: 70%;
+    }
+
+    .header__presentacion .slider-imagenes{
+        width: 50%;
+        height: 55%;
+    }
+
+    .header__presentacion .slider-imagenes .imagen{
+        width: 100%;
+        height: 100%;
+    }
+}
