@@ -29,14 +29,12 @@ $flecha.addEventListener("click", subir);
 window.addEventListener("resize", flechaVisible);
 
 function flechaVisible(){
-    if(screen.width < 768){
-        window.onscroll = function(){
-            if(document.documentElement.scrollTop > 100){
-                $flecha.style.display = 'block';
-            }
+    window.onscroll = function(){
+        if(document.documentElement.scrollTop > 300){
+            $flecha.style.display = 'block';
+        }else{
+            $flecha.style.display = 'none';
         }
-    }else{
-        $flecha.style.display = 'none';
     }
 }
 
