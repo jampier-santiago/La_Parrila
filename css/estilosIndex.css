@@ -496,3 +496,21 @@
         display: none !important;
     }
 }
+
+@media screen and (min-width: 2560px){
+    .header__menu .enlace-menu a, .header__menu h3{
+        font-size: 30px;
+    }
+
+    .main .main__titulo h1{
+        font-size: 35px;
+    }
+
+    .main .contenedor-productos .titulo-categoria h2{
+        font-size: 30px;
+    }
+
+    .main .contenedor-productos .productos li span{
+        font-size: 25px;
+    }
+}
