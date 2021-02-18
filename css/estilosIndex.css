@@ -480,8 +480,9 @@
     }
 
     .header__presentacion .imagen-principal{
-        width: 50%;
+        width: 40%;
         height: 60%;
+        margin: 0 auto;
     }
 
     .header__presentacion .imagen-principal img{
@@ -489,7 +490,9 @@
     }
 
     .header__presentacion .slider-imagenes{
-        height: 48%;
+        width: 40%;
+        height: 70%;
+        margin: 0 auto;
     }
 
     #flecha{
@@ -497,7 +500,7 @@
     }
 }
 
-@media screen and (min-width: 2560px){
+@media screen and (min-width: 2560px){  
     .header__menu .enlace-menu a, .header__menu h3{
         font-size: 30px;
     }
