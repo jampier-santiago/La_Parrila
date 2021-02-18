@@ -1,3 +1,5 @@
+// --- MENÚ PRINCIPAL ---
+
 //variables
 let botonMenuActivado = true;
 
@@ -17,3 +19,31 @@ $botonMenu.addEventListener('click', () => {
         botonMenuActivado = true;
     }
 });
+
+// --- MENÚ PRINCIPAL ---
+
+// --- FLECHA QUE LLEVA AL INICIO DE LA PAGINA ---
+const $flecha = document.getElementById('flecha');
+$flecha.addEventListener("click", subir);
+
+window.addEventListener("resize", flechaVisible);
+
+function flechaVisible(){
+    if(screen.width < 768){
+        window.onscroll = function(){
+            if(document.documentElement.scrollTop > 100){
+                $flecha.style.display = 'block';
+            }
+        }
+    }else{
+        $flecha.style.display = 'none';
+    }
+}
+
+function subir(){
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    })
+}
+// --- FLECHA QUE LLEVA AL INICIO DE LA PAGINA ---

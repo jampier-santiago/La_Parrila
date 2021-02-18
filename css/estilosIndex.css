@@ -178,7 +178,6 @@
 }
 
 .slider-imagenes .imagen{
-    background-color: green;
     width: 100%;
     height: 370px;
     flex-shrink: 0;
@@ -302,6 +301,30 @@
     font-family: var(--letra2);
 }
 
+/*BOTON PARA LLEGAR AL INICIO DE LA PAGINA*/
+.contenedor__boton-inicio{
+    display: none;
+    z-index: 5;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(45deg, var(--colorPrincipal), var(--colorOscuro));
+    border: 2px solid var(--colorOscuro);
+    border-radius: 50%;
+}
+
+.contenedor__boton-inicio button{
+    width: 100%;
+    height: 100%;
+    background: none;
+    border: none;
+    font-size: 30px;
+    font-weight: bolder;
+    cursor: pointer;
+    outline: none;
+}
 
 /* Animaciones */
 @keyframes slider{
@@ -500,6 +523,10 @@
     .contenedor-btn-menu{
         display: block;
         width: 50px;
+    }
+
+    .header__menu ul{
+        width: 30%;
     }
 
     .header__presentacion .imagen-principal{
