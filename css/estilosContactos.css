@@ -137,10 +137,117 @@
 
 /* MAIN */
 .main{
-    background-color: aqua;
-    display: block;
     width: 100%;
     height: 572px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url('https://i.pinimg.com/originals/61/d2/9e/61d29e27a572ec7ace1a73b8cfa69805.jpg');
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+}
+
+.main .main__iconos{
+    width: 45%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    border: 5px solid var(--colorOscuro);
+    background: none;
+    box-shadow: 10px 10px 10px var(--colorOscuro);
+    box-sizing: border-box;
+}
+
+.main__iconos .iconos__titulo{
+    width: 100%;
+    height: 80px;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 2px solid var(--colorOscuro);
+    box-sizing: border-box;
+}
+
+.iconos__titulo h2{
+    font-family: var(--letra2);
+    letter-spacing: 3px;
+}
+
+.main__iconos .iconos__enlaces{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.iconos__enlaces div{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: rgba(0, 0, 0, .6);
+    border-radius: 50%;
+    border: 2px solid var(--colorClaro);
+    overflow: hidden;
+}
+
+.iconos__enlaces .icono{
+    width: 100%;
+    height: 100%;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--colorClaro);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.iconos__enlaces div:hover{
+    background-color: var(--colorOscuro);
+}
+
+.main__mapa{
+    width: 45%;
+    height: 80%;
+    border-radius: 25px;
+    border: 5px solid var(--colorOscuro);
+    background: none;
+    box-shadow: 10px 10px 10px var(--colorOscuro);
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.main__mapa .mapa__titulo-contenedor{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid var(--colorOscuro);
+    box-sizing: border-box;
+}
+
+.main__mapa .mapa__titulo-contenedor span{
+    width: 50px;
+    font-size: 25px;
+}
+
+.main__mapa .mapa__titulo-contenedor h2{
+    font-family: var(--letra2);
+    letter-spacing: 3px;
+}
+
+.main__mapa .contenedor-mapa{
+    width: 100%;
+    height: 84%;
 }
 
 /* FOOTER */

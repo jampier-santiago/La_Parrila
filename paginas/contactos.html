@@ -37,7 +37,7 @@
                         <a href="#">Galeria</a>
                     </li>
                     <li class="enlace-menu">
-                        <a href="paginas/contactos.html">Contacto</a>
+                        <a href="../paginas/contactos.html">Contacto</a>
                     </li>
                     <li class="contenedor-btn-menu">
                         <button class="icon-menu btn-menu" id="btn-menu"></button>
@@ -65,7 +65,7 @@
                         <a href="#">Galeria</a>
                     </li>
                     <li>
-                        <a href="#">Contacto</a>
+                        <a href="../paginas/contactos.html">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -75,14 +75,30 @@
         <!-- MAIN -->
         <main class="main">
             <section class="main__iconos">
-                <div class="icon-facebook2"></div>
-                <div class="icon-whatsapp"></div>
+                <div class="iconos__titulo">
+                    <h2>Nuestras redes sociales</h2>
+                </div>
+
+                <div class="iconos__enlaces">
+                    <div>
+                        <a class="icono icon-facebook2" target="_blank" href="https://www.google.com/"></a>
+                    </div>
+
+                    <div>
+                        <span class="icon-whatsapp icono" id="iconoW"></span>
+                    </div>
+                </div>
             </section>
 
             <section class="main__mapa">
-                <div class="icon-arrow-up2"></div>
+                <div class="mapa__titulo-contenedor">
+                    <span class="icon-location"></span>
+                    <h2>Mapa</h2>
+                </div>
 
-                <div class="contenedor-mapa"></div>
+                <div class="contenedor-mapa">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d63344.93804291671!2d-73.16808341834721!3d7.119204677409736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e0!4m0!4m5!1s0x8e68157af751c0ed%3A0x75a0e4551148c36c!2sBucaramanga%2C%20Santander!3m2!1d7.119349!2d-73.1227416!5e0!3m2!1ses!2sco!4v1613774306794!5m2!1ses!2sco" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" title="Mapa"></iframe>
+                </div>
             </section>
         </main>
         <!-- /MAIN -->
@@ -94,6 +110,7 @@
         </footer>
         <!-- /FOOTER -->
 
+        <script src = " https://unpkg.com/sweetalert/dist/sweetalert.min.js "> </script> 
         <script src="../js/codigo.js"></script>
     </body>
 </html>

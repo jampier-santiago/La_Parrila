@@ -45,3 +45,18 @@ function subir(){
     })
 }
 // --- FLECHA QUE LLEVA AL INICIO DE LA PAGINA ---
+
+// --- VENTANA EMERGENTE PARA EL CONTACTO DE WHATSAPP ---
+    const $iconoW = document.getElementById('iconoW');
+
+    $iconoW.addEventListener("click", ventanaEmergente);
+
+    function ventanaEmergente(){
+        swal({
+            title: "¡Contactanos!",
+            text: "+57 30.......", 
+            icon: "success",
+            button: "Continuar"
+        });
+    }
+// --- VENTANA EMERGENTE PARA EL CONTACTO DE WHATSAPP ---
