@@ -188,6 +188,8 @@
     animation-duration: 10s;
     -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
 }
 
 .slider-imagenes #imagen1{
@@ -515,5 +517,43 @@
 
     .main .contenedor-productos .productos li span{
         font-size: 25px;
+    }
+}
+
+@media screen and (min-width: 768px) and (orientation: landscape){
+    .header{
+        min-height: 100vh;
+    }
+
+    .header__menu{
+        height: 50px;
+    }
+
+    .menu-responsive{
+        top: 50px;
+        bottom: 10px;
+    }
+
+    .menu-responsive .menu-responsive__enlaces ul{
+        flex-direction: row;
+    }
+
+    .header__presentacion{
+        height: 50%;
+    }
+
+    .header__presentacion .imagen-principal{
+        width: 50%;
+        height: 90%;
+    }
+
+    .header__presentacion .imagen-principal img{
+        min-width: 30%;
+        max-height: 100%;
+    }
+
+    .header__presentacion .slider-imagenes{
+        width: 40%;
+        height: 100%;
     }
 }
