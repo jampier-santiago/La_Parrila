@@ -28,6 +28,7 @@
     font-family: var(--letra);
     letter-spacing: 5px;
     font-size: 20px;
+    text-shadow: 5px 5px 8px var(--colorOscuro);
 }
 
 .header__menu ul{
@@ -68,6 +69,7 @@
     color: var(--colorClaro);
     text-decoration: none;
     box-sizing: border-box;
+    outline: none;
 }
 
 .contenedor-btn-menu{
