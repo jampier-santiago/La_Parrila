@@ -1,3 +1,8 @@
+@import "normalize.css";
+@import "variables.css";
+
+/* ESTILOS DE LA PAGINA DE CONTACTOS */
+
 /* HEADER*/
 .header{
     position: relative;
@@ -87,10 +92,10 @@
 /* MENÚ RESPONSIVE */
 .menu-responsive{
     width: 100%;
-    height: 200px;
     padding: 20px;
     position: fixed;
     top: 100px;
+    bottom: 20%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -113,14 +118,14 @@
 }
 
 .menu-responsive .menu-responsive__enlaces ul{
+    padding: 0;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
 
-.menu-responsive .menu-responsive__enlaces ul li{
-    width: 20%;
+.menu-responsive .menu-responsive__enlaces li{
     height: 50px;
     list-style: none;
     text-align: center;
@@ -150,7 +155,7 @@
     box-sizing: border-box;
 }
 
-.main .main__iconos{
+.main__iconos{
     width: 45%;
     height: 80%;
     display: flex;
@@ -172,6 +177,7 @@
 }
 
 .iconos__titulo h2{
+    margin: 0;
     font-family: var(--letra2);
     letter-spacing: 3px;
 }
@@ -290,3 +296,52 @@
     cursor: pointer;
     outline: none;
 } 
+
+/* RESPONSIVE DESIGN  */
+@media only screen and (min-width: 319px){
+    .enlace-menu{
+        display: none;
+    }
+    .contenedor-btn-menu{
+        display: block;
+    }
+
+    .header__presentacion{
+        flex-direction: column;
+    }
+
+    .main{
+        flex-direction: column;
+    }
+
+    .main__iconos{
+        width: 100%;
+        height: 45%;
+    }
+
+    .iconos__titulo{
+        font-size: 15px;
+    }
+
+    .main__iconos .iconos__enlaces{
+        flex-direction: row;
+    }
+
+    .iconos__enlaces div{
+        width: 70px;
+        height: 70px;
+    }
+
+    .main__mapa{
+        width: 100%;
+        height: 45%;
+    }
+
+    .main__mapa .mapa__titulo-contenedor{
+        height: 60px;
+    }
+
+    .main__mapa .contenedor-mapa{
+        height: 75%;
+    }
+}
