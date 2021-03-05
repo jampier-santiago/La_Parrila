@@ -42,7 +42,7 @@
     box-sizing: border-box;
 }
 
-.header__menu ul li{
+.header__menu li{
     width: 22%;
     height: 100%;
     margin: 0;
@@ -51,7 +51,7 @@
     box-sizing: border-box;
 }
 
-.header__menu ul li:hover, .menu-responsive .menu-responsive__enlaces ul li:hover{
+.header__menu ul li:hover, .menu-responsive__enlaces ul li:hover{
     background-color: rgba(255, 255, 255, 0.2);
     font-weight: bolder;
     font-style: italic;
@@ -106,18 +106,18 @@
     transition-duration: 1s;
 }
 
-.menu-responsive .menu-responsive__titulo h2{
+.menu-responsive__titulo h2{
     font-family: var(--letra3);
     font-size: 40px;
 }
 
-.menu-responsive .menu-responsive__enlaces{
+.menu-responsive__enlaces{
     width: 100%;
     height: 100%;
     box-sizing: border-box;
 }
 
-.menu-responsive .menu-responsive__enlaces ul{
+.menu-responsive__enlaces ul{
     padding: 0;
     display: flex;
     flex-direction: column;
@@ -125,13 +125,13 @@
     align-items: center;
 }
 
-.menu-responsive .menu-responsive__enlaces li{
+.menu-responsive__enlaces li{
     height: 50px;
     list-style: none;
     text-align: center;
 }
 
-.menu-responsive .menu-responsive__enlaces li a{
+.menu-responsive__enlaces li a{
     text-decoration: none;
     color: var(--colorClaro);
     font-family: var(--letra2);
@@ -230,7 +230,7 @@
     box-sizing: border-box;
 }
 
-.main__mapa .mapa__titulo-contenedor{
+.mapa__titulo-contenedor{
     width: 100%;
     height: 80px;
     display: flex;
@@ -241,17 +241,17 @@
     box-sizing: border-box;
 }
 
-.main__mapa .mapa__titulo-contenedor span{
+.mapa__titulo-contenedor span{
     width: 50px;
     font-size: 25px;
 }
 
-.main__mapa .mapa__titulo-contenedor h2{
+.mapa__titulo-contenedor h2{
     font-family: var(--letra2);
     letter-spacing: 3px;
 }
 
-.main__mapa .contenedor-mapa{
+.contenedor-mapa{
     width: 100%;
     height: 84%;
 }
@@ -337,11 +337,26 @@
         height: 45%;
     }
 
-    .main__mapa .mapa__titulo-contenedor{
+    .mapa__titulo-contenedor{
         height: 60px;
     }
 
-    .main__mapa .contenedor-mapa{
+    .contenedor-mapa{
         height: 75%;
+    }
+}
+
+@media only screen and (min-width: 319px) and (orientation: landscape){
+    .menu-responsive__enlaces ul{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .menu-responsive__titulo h2{
+        margin: 0;
+    }
+
+    .main__iconos, .main__mapa{
+        width: 80%;
     }
 }
