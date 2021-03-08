@@ -126,6 +126,7 @@
 }
 
 .menu-responsive__enlaces li{
+    width: 60%;
     height: 50px;
     list-style: none;
     text-align: center;
@@ -299,6 +300,10 @@
 
 /* RESPONSIVE DESIGN  */
 @media only screen and (min-width: 319px){
+    .menu-responsive{
+        bottom: 40%;
+    }
+
     .enlace-menu{
         display: none;
     }
@@ -347,6 +352,14 @@
 }
 
 @media only screen and (min-width: 319px) and (orientation: landscape){
+    .menu-responsive{
+        bottom: 20%;
+    }
+
+    .menu-responsive__enlaces li{
+        width: 30%;
+    }
+
     .menu-responsive__enlaces ul{
         flex-direction: row;
         flex-wrap: wrap;
@@ -358,5 +371,29 @@
 
     .main__iconos, .main__mapa{
         width: 80%;
+    }
+}
+
+@media only screen and (min-width: 374px) and (orientation: landscape){
+    .menu-responsive{
+        bottom: 40%;
+    }
+}
+
+@media only screen and (min-width: 706px){
+    .menu-responsive__enlaces ul{
+        height: 100%;
+        margin: 0;
+        box-sizing: border-box;
+    }
+}
+
+@media only screen and (min-width: 767px) and (orientation: landscape){
+    .menu-responsive{
+        bottom: 60%;
+    }
+
+    .menu-responsive__enlaces li{
+        width: 30%;
     }
 }
