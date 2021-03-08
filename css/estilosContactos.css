@@ -43,7 +43,7 @@
 }
 
 .header__menu li{
-    width: 22%;
+    width: 30%;
     height: 100%;
     margin: 0;
     text-align: center;
@@ -395,5 +395,37 @@
 
     .menu-responsive__enlaces li{
         width: 30%;
+    }
+}
+
+@media only screen and (min-width: 1125px){
+    .enlace-menu{
+        display: flex;
+    }
+    .contenedor-btn-menu{
+        display: none;
+    }
+
+    .header__menu li a{
+        padding: 10px;
+        line-height: 30px;
+    }
+
+    .main{
+        flex-direction: row;
+    }
+
+    .main__iconos, .main__mapa{
+        width: 45%;
+        height: 80%;
+    }
+
+    .contenedor-mapa{
+        height: 100%;
+    }
+
+    .iconos__enlaces div{
+        width: 100px;
+        height: 100px;
     }
 }
