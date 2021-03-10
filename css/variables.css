@@ -6,9 +6,9 @@
 /* Variables a utilizar dentro del proyecto */
 :root {   
     /* Fuentes */
-    --letra: 'Stalinist One', cursive;
-    --letra2:'Source Code Pro', monospace;
-    --letra3: 'Lexend Mega', sans-serif;
+    --FuenteDeEmpresa: 'Stalinist One', cursive;
+    --texto:'Source Code Pro', monospace;
+    --titulos: 'Lexend Mega', sans-serif;
 
     /* Colores */
     --colorPrincipal: #FF0000;

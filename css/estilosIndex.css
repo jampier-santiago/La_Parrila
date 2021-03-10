@@ -27,7 +27,7 @@
 }
 
 .header__menu h3{
-    font-family: var(--letra);
+    font-family: var(--FuenteDeEmpresa);
     letter-spacing: 5px;
     font-size: 20px;
     text-shadow: 5px 5px 8px var(--colorOscuro);
@@ -65,7 +65,7 @@
     height: 100%;
     padding: 10px 45px;
     font-size: 15px;
-    font-family: var(--letra2);
+    font-family: var(--texto);
     line-height: 50px;
     letter-spacing: 2px;
     color: var(--colorClaro);
@@ -109,7 +109,7 @@
 }
 
 .menu-responsive .menu-responsive__titulo h2{
-    font-family: var(--letra3);
+    font-family: var(--titulos);
     font-size: 40px;
 }
 
@@ -136,7 +136,7 @@
 .menu-responsive .menu-responsive__enlaces li a{
     text-decoration: none;
     color: var(--colorClaro);
-    font-family: var(--letra2);
+    font-family: var(--texto);
     font-size: 15px;
     letter-spacing: 2px;
     line-height: 50px;
@@ -242,7 +242,7 @@
 }
 
 .main__titulo h1{
-    font-family: var(--letra3);
+    font-family: var(--titulos);
     font-style: italic;
     text-transform: capitalize;
 }
@@ -276,7 +276,7 @@
 }
 
 .contenedor-productos .titulo-categoria h2{
-    font-family: var(--letra2);
+    font-family: var(--texto);
 }
 
 .contenedor-productos .productos{
@@ -288,7 +288,7 @@
 
 .contenedor-productos .productos li{
     margin-bottom: 10px;
-    font-family: var(--letra3);
+    font-family: var(--titulos);
 }
 
 /* FOOTER */
@@ -300,11 +300,11 @@
 }
 
 .footer h3{
-    font-family: var(--letra);
+    font-family: var(--FuenteDeEmpresa);
 }
 
 .footer h4{
-    font-family: var(--letra2);
+    font-family: var(--texto);
 }
 
 /*BOTON PARA LLEGAR AL INICIO DE LA PAGINA*/
