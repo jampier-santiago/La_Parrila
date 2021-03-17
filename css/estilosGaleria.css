@@ -415,3 +415,39 @@
         column-count: 2;
     }
 }
+
+@media only screen and (min-width: 374px){
+    #imagen1, #imagen2, #imagen4, #imagen6, #imagen7{
+        height: 170px;
+    }
+
+    #imagen3, #imagen12, #imagen11, #imagen10, #imagen9{
+        height: 400px;
+    }
+
+    #imagen11{
+        background-position: center;
+    }
+
+    #imagen5{
+        height: 550px;
+    }
+
+    #imagen8{
+        height: 350px;
+    }
+}
+
+@media only screen and (min-width: 374px) and (orientation: landscape){
+    #imagen1, #imagen2, #imagen4, #imagen6, #imagen7{
+        height: 150px;
+    }
+
+    #imagen3, #imagen12, #imagen11, #imagen10, #imagen9{
+        height: 350px;
+    }
+
+    #imagen5{
+        height: 500px;
+    }
+}
