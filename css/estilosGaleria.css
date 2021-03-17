@@ -383,3 +383,35 @@
         height: 60px;
     }
 }
+
+@media only screen and (min-width: 319px) and (orientation: landscape){
+    .menu-responsive{
+        height: 200px;
+    }
+
+    .menu-responsive__titulo{
+        width: 80%;
+        height: 60px;
+        text-align: center;
+    }
+
+    .menu-responsive__titulo h2{
+        margin: 0;
+    }
+
+    .menu-responsive__enlaces ul{
+        height: 80px;
+        margin-top: 20px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        line-height: 50px;
+    }
+
+    .menu-responsive__enlaces li{
+        width: 20%;
+    }
+    
+    .galeria__contenedor-imagenes{
+        column-count: 2;
+    }
+}
