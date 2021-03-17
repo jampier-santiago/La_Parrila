@@ -483,3 +483,47 @@
         height: 500px;
     }
 }
+
+@media only screen and (min-width: 765px) and (orientation: landscape){
+    .galeria__contenedor-imagenes{
+        column-count: 3;
+    }
+
+    #imagen1, #imagen2, #imagen4, #imagen6, #imagen7{
+        height: 160px;
+    }
+
+    #imagen3, #imagen12, #imagen11, #imagen10, #imagen9{
+        height: 380px;
+    }
+
+    #imagen5{
+        height: 540px;
+    }
+
+    #imagen8{
+        height: 350px;
+    }
+}
+
+@media only screen and (min-width: 765px) and (orientation: portrait){
+    .galeria__contenedor-imagenes{
+        column-count: 2;
+    }
+
+    #imagen1, #imagen2, #imagen4, #imagen6, #imagen7{
+        height: 180px;
+    }
+
+    #imagen3, #imagen12, #imagen11, #imagen10, #imagen9{
+        height: 450px;
+    }
+
+    #imagen5{
+        height: 580px;
+    }
+
+    #imagen8{
+        height: 380px;
+    }
+}
