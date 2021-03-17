@@ -275,6 +275,27 @@
     font-family: var(--texto);
 }
 
+.footer a{
+    width: 10%;
+    padding-bottom: 2px;
+    display: inline-block;
+    text-align: center;
+    font-family: var(--texto);
+    font-style: italic;
+    color: var(--colorOscuro);
+    font-size: 18px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    text-decoration: none;
+    border-bottom: 1px solid var(--colorOscuro);
+}
+
+.footer a:hover{
+    color: var(--colorClaro);
+    border-bottom: 1px solid var(--colorClaro);
+}
+
+
 /*BOTON PARA LLEGAR AL INICIO DE LA PAGINA*/
 .contenedor__boton-inicio{
     display: none;
