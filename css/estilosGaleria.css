@@ -337,6 +337,11 @@
     .menu ul{
         width: 40%;
     }
+
+    .contenedor-btn-menu{
+        display: block;
+    }
+
     .menu__enlace{
         display: none;
     }
@@ -352,10 +357,6 @@
 
     .menu-responsive__enlaces li{
         width: 100%;
-    }
-
-    .contenedor-btn-menu{
-        display: block;
     }
 
     .galeria__contenedor-imagenes{
@@ -529,6 +530,19 @@
 }
 
 @media only screen and (min-width: 1099px){
+    .contenedor-btn-menu{
+        display: none;
+    }
+
+    .menu__enlace{
+        display: flex;
+    }
+
+    .menu__enlace a{
+        padding: 10px;
+        line-height: 30px;
+    }
+
     .galeria__contenedor-imagenes{
         column-count: 4;
     }
