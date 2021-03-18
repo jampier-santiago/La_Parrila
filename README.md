@@ -1,4 +1,4 @@
-# La_Parrila
+# La_Parrilla
 Este es el repositorio de la pagina web de **la parrilla**, este es un restaurante ubicado en San Sebastian de Mariquita (Tolima, Colombia)
 
 ## Construido con
