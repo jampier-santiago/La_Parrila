@@ -443,6 +443,10 @@
     .menu-responsive .menu-responsive__enlaces ul li{
         width: 90%;
     }
+
+    .footer a{
+        width: 50%;
+    }
 }
 
 @media only screen and (min-width: 375px){
@@ -459,6 +463,10 @@
     .header__presentacion .slider-imagenes{
         width: 80%;
         height: 50%;
+    }
+
+    .footer a{
+        width: 40%;
     }
 }
 
@@ -478,6 +486,10 @@
     .header__presentacion .slider-imagenes{
         width: 50%;
         height: 55%;
+    }
+
+    .footer a{
+        width:20%;
     }
 }
 
@@ -523,6 +535,12 @@
 
     #flecha{
         display: none !important;
+    }
+}
+
+@media only screen and (min-width: 1439px){
+    .footer a{
+        width: 15%;
     }
 }
 
